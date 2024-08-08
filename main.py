@@ -9,7 +9,7 @@ st.set_page_config("Research PDF Insights Extractor", page_icon=':memo')
 
 st.title("PDF Insights Extractor")
 
-client =  Anthropic(api_key = "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")
+client =  Anthropic(api_key = "")
 
 uploaded_file = st.file_uploader("Select a PDF", type="pdf")
 
